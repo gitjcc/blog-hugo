@@ -1,3 +1,7 @@
+# others
+.DS_Store
+public/
+
 # Logs
 logs
 *.log
