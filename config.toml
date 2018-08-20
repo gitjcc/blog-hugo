@@ -4,20 +4,33 @@ author = "Jesse"
 canonifyurls = true
 languagecode = "en"
 theme = "black-and-light"
+enableEmoji = true
 
 pygmentsstyle       = "bw"
 pygmentscodefences  = true
 
 [params]
-  sitename = "gitjcc"
+  sitename = "GitJcc"
+  description = "Jesse's Blog, Powered By Hugo & Netlify"
   disableWebFonts = false
 
 [[menu.main]]
-    name = "Blog"
-    url  = "https://gitjcc.com/"
+  weight = 1
+  name   = "Home"
+  url    = "/"
 [[menu.main]]
-    name = "Life"
-    url  = "https://gitjcc.com/"
+  weight = 2
+  name   = "GitHub"
+  url    = "https://github.com/gitjcc"
 [[menu.main]]
-    name = "About"
-    url  = "https://gitjcc.com/"
+  weight = 3
+  name   = "Slides"
+  url    = "https://slides.gitjcc.com/"
+[[menu.main]]
+  weight = 4
+  name   = "JianShu"
+  url    = "https://www.jianshu.com/u/45250fb5cf17"
+[[menu.main]]
+  weight = 5
+  name   = "About"
+  url    = "/about"
