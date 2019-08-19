@@ -125,6 +125,13 @@ cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
 git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git
 ```
 
+### 修改 homebrew-cask 源
+
+```
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-cask"
+git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-cask.git
+```
+
 ### 修改 bintray 源
 
 ```
